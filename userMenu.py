@@ -13,8 +13,10 @@ def menu_select(choice):
         print('du har valt alterinativ 1')
     elif choice == 2:
         print('du har valt alterinativ 2')
+        person_manager.add_person()
     elif choice == 3:
         print('du har valt alterinativ 3')
+        person_manager.remove_person()
     elif choice == 4:
         print('du har valt alterinativ 4')
     elif choice == 5:
