@@ -1,4 +1,10 @@
+import csv_to_json
+import json_to_csv
+import person_manager
+
+
 def menu_choice():
+    # Visuell meny alternativ för användaren.
     print("[1]  Hämta CSV data och spara till json fil.")
     print("[2]  Lägg till person i json fil.")
     print("[3]  Ta bort person i json fil.")
@@ -10,7 +16,7 @@ def menu_choice():
 # Användarens alternativ är mellan 1-6.
 def menu_select(choice):
     if choice == 1:
-        print('du har valt alterinativ 1')
+        csv_to_json.read_csv()
     elif choice == 2:
         person_manager.add_person()
     elif choice == 3:
@@ -18,7 +24,7 @@ def menu_select(choice):
     elif choice == 4:
         person_manager.show_person()
     elif choice == 5:
-        print('du har valt alterinativ 5')
+        json_to_csv.json_csv()
     elif choice == 6:
         exit()
     else:

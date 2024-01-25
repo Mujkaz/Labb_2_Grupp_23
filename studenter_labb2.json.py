@@ -1,4 +1,4 @@
-﻿[
+[
     {
         "Efternamn": "Abdalla Mohamed",
         "Förnamn": "Abdulqadir",
@@ -315,8 +315,8 @@
         "Användarnamn": "Vilmu"
     },
     {
-        "Förnamn": "Harald",
-        "Efternamn": "Persson",
+        "Efternamn": "Harald",
+        "Förnamn": "Persson",
         "Användarnamn": "harper"
     }
 ]
